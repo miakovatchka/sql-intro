@@ -2,7 +2,7 @@
 
 select name, avg(wins)
 from teams
-where year >1999
+where year >2000
 group by name;
 
 -- Expected result:

@@ -1,8 +1,9 @@
 -- How many teams played in the league in each year?
 
-select year, count(name)
+select year, count(*)
 from teams
 group by year;
+-- If not in group by, can't add it to select function
 
 -- Expected result: 150 rows, ending with
 --
