@@ -1,11 +1,12 @@
+--Insert data into table
 insert into students(
 first_name,
 last_name, 
 phone)
 values (
-    "Ben"
-    "Block"
-    "111-222-333"
+    "Ben",
+    "Block",
+    "111-222-333",
 )
 select * from students;
 -- Each time run via .read, adds row
